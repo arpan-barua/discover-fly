@@ -32,7 +32,7 @@
             <h3>Booking Flights</h3>
             <div class="input-group">
                 <label for="">Flying From</label>
-                <input class="inp-style" type="text" name="" placeholder="Dhake, Bangladesh">
+                <input class="inp-style" type="text" name="" placeholder="Dhaka, Bangladesh">
             </div>
             <div class="input-group">
                 <label for="">Flying To</label>
@@ -53,10 +53,10 @@
                     <label for="">First Class ($150)</label>
                     <input id="firstClassInput" type="text" class="form-control text-center" value="0">
                 </div>
-                <div class="plus-minus-btn">
-                    <button onclick="handleTypeChange('firstClass', true)" id="increaseFClassBtn">+</button>
-                    <br>
-                    <button onclick="handleTypeChange('firstClass', false)" id="decreaseFClassBtn">-</button>
+                <div>
+                    <button onclick="handleTypeChange('firstClass', true)" id="increaseFClassBtn" class="plus-minus-btn">+</button>
+                    
+                    <button onclick="handleTypeChange('firstClass', false)" id="decreaseFClassBtn" class="plus-minus-btn">-</button>
                 </div>
             </div>
             
@@ -65,10 +65,10 @@
                     <label for="">Economy ($100)</label>
                     <input id="economyClassInput" type="text" class="form-control text-center" value="0">
                 </div>
-                <div class="plus-minus-btn">
-                    <button onclick="handleTypeChange('economyClass', true)" id="increaseEClassBtn">+</button>
-                    <br>
-                    <button onclick="handleTypeChange('economyClass', false)" id="decreaseEClassBtn">-</button>
+                <div>
+                    <button onclick="handleTypeChange('economyClass', true)" id="increaseEClassBtn" class="plus-minus-btn">+</button>
+                    
+                    <button onclick="handleTypeChange('economyClass', false)" id="decreaseEClassBtn" class="plus-minus-btn">-</button>
                 </div>
             </div>
             <div class="calculations">
@@ -158,7 +158,7 @@
         document.getElementById("content").style.display = "none";
         document.getElementById("confirmation").style.display = "block";
         })
-        
+
     </script>
 </body>
 
